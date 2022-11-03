@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root{
+	--color-hero:#09090d;
+	--color-amarillo:#FFDA79;
+	--color-negro:#111;
+	--color-letras:#17494d;
+	--color-textofooter:#5d5d5d;
+	--color-gris:#95a3a2;
+}
+
+body{
+	font-family: Raleway;
+	font-size: 16px;
+	color: var(--color-negro)
+}
+
+header{
+	background-color: #fff;
+	padding: 40px;
+}
+
+#hero{
+	color: var(--color-hero);
+	padding: 40px;
+}
+
+.btn-amarillo{
+	background-color: var(--color-amarillo);
+	font-weight: 700;
+	font-size: 20px;
+	padding: 2% 2%;
+	margin-bottom: 5%;
+}
+
+#hero .btn-amarillo{
+	margin-top: 15%;
+}
+
+#hero img{
+	margin-top: 2%;
+}
+ h1{
+	font-size: 70px;
+	font-weight: 900;
+	margin-bottom: 6%;
+}
+
+h2{
+	font-size: 60px;
+	font-weight: 800;
+	margin-bottom: 6%;
+}
+
+h4{
+	font-size: 24px;
+	font-weight: 700;
+	margin-top: 8px;
+}
+
+.btn-negro{
+	background-color: var(--color-negro);
+	color: #fff;
+	border-radius: 0;
+	font-weight: 600;
+	font-size: 20px;
+	padding: 2% 4%;
+}
+
+.btn-negro:hover{
+	background-color: #fff;
+	border: solid 1px;
+}
+
+.list-inline {
+	text-align: center;
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.list-inline li {
+	display: inline-block;
+	padding: 20px;
+}
+
+.margin{
+	margin: 10% 0 2%;;
+}
+
+#about-office{
+	background-color: #d3e4e4;
+	padding: 40px;
+}
+
+#about-office p{
+	color: var(--color-letras)
+}
+
+.btn-verde{
+	background-color: #c9dbda;
+	font-weight: 700;
+	font-size: 20px;
+	width: 50%;
+	margin-bottom: 5%;
+	text-align: left;
+}
+
+#about-office i{
+	color: var(--color-letras);
+	font-size: 50px;
+	text-align: center;
+	color: var(--color-gris)
+}
+
+
+
+
+
+
+.text-center{
+	text-align: center;
+	align-items: center;
+	align-content: center;
+}
+
+
+@media (max-width:600px){
+	.btn-amarillo{
+		margin-top: 0 !important;
+	}
+}
+
+
