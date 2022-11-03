@@ -5,12 +5,13 @@
 	--color-amarillo:#FFDA79;
 	--color-negro:#111;
 	--color-letras:#17494d;
-	--color-textofooter:#5d5d5d;
+	--color-footer:#5d5d5d;
 	--color-gris:#95a3a2;
+	--color-morado:#cfbaf3;
 }
 
 body{
-	font-family: Raleway;
+	font-family: Raleway, sans-serif;
 	font-size: 16px;
 	color: var(--color-negro)
 }
@@ -68,7 +69,7 @@ h4{
 }
 
 .btn-negro:hover{
-	background-color: #fff;
+	background-color: transparent;
 	border: solid 1px;
 }
 
@@ -102,20 +103,37 @@ h4{
 	font-weight: 700;
 	font-size: 20px;
 	width: 50%;
-	margin-bottom: 5%;
+	margin-bottom: 3%;
 	text-align: left;
 }
 
 #about-office i{
-	color: var(--color-letras);
 	font-size: 50px;
 	text-align: center;
-	color: var(--color-gris)
+	color: var(--color-gris);
 }
 
+#about-office img{
+	margin-bottom: 2%;
+}
 
+#worldwide{
+	text-align: center;
+	padding: 8% 0;
+	
+}
 
+#worldwide .btn-amarillo{
+	padding: 1% 2%;
+	margin-bottom: 3%;
+	border-radius: 15px;
 
+}
+
+#subscribe{
+	background-color: var(--color-morado);
+	padding: 60px;
+}
 
 
 .text-center{
@@ -124,7 +142,40 @@ h4{
 	align-content: center;
 }
 
+.center-items{
+	align-content: center;
+}
 
+input{
+	font-family: Raleway, sans-serif;
+	font-size: 14px;
+	border: 0;
+	padding: 10px 10px;
+	border-radius: 30px;
+	} 
+
+#subscribe .margin{
+	margin-top: 15%;
+}
+
+footer{
+	padding: 8%;
+	color: var(--color-footer)
+}
+
+footer p{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+footer a{
+	text-decoration: none;
+	color: var(--color-footer)
+}
+
+footer a:hover{
+	color: orange;
+}
 @media (max-width:600px){
 	.btn-amarillo{
 		margin-top: 0 !important;
